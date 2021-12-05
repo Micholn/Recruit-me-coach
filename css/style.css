@@ -2540,6 +2540,73 @@ a.job-list[data-toggle=collapse].collapsed:before {
   height: 400px;
 }
 
+
+
+.show-dropdown-content .down-mark {
+  display: block;
+}
+.show-dropdown-content .up-mark {
+  display: none;
+}
+.bgwhite {background-color: white;}
+.bgblack {background-color: black;}
+.bo2 {border: 1px solid #e6e6e6;}
+.bo2-b {border-bottom: 1px solid #e6e6e6;}
+.bo2-t {border-top: 1px solid #e6e6e6;}
+.bo2-r {border-right: 1px solid #e6e6e6;}
+.bo2-tb {
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+.m-b-10 {margin-bottom: 10px;}
+.bg5 {background-color: #f2f2f2;}
+.flex-sb-m{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.hov-pointer:hover {cursor: pointer;}
+.m-txt19 {
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #333333;
+}
+.hov-color-main:hover {
+  color: #233785;
+}
+.trans-04 {
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.p-l-30 {padding-left: 30px;}
+.p-r-20 {padding-right: 20px;}
+.p-t-13 {padding-top: 13px;}
+.p-b-13 {padding-bottom: 13px;}
+.fs-22 {font-size: 22px;}
+.color3 {color: #c5c5c5;}
+.dis-none {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   background: #202942;
   padding: 60px 0;
@@ -2583,6 +2650,8 @@ a.job-list[data-toggle=collapse].collapsed:before {
 .footer.footer-bar .payment-cards img {
   height: 25px;
 }
+
+
 
 hr {
   margin-top: 0;

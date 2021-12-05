@@ -36,6 +36,20 @@
     // Nice Select
     $('.nice-select').niceSelect();
 
+
+    /*==================================================================
+    [ Show content Product detail ]*/
+    $('.active-dropdown-content .js-toggle-dropdown-content').toggleClass('show-dropdown-content');
+    $('.active-dropdown-content .dropdown-content').slideToggle();
+
+    $('.js-toggle-dropdown-content').on('click', function(){
+        $(this).toggleClass('show-dropdown-content');
+        $(this).parent().find('.dropdown-content').slideToggle(300);
+    });
+
+    /*==================================================================
+    [ Show gird / list course ]*/
+
     // Back to top
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
